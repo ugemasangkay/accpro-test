@@ -1,8 +1,4 @@
-# ACCPRO Test - Masangkay, Eugene
-
-* Initial file branch: `main`
-* Test branches:
-    * `test/number-picker-game`
+# accpro-test
 
 ## Project setup
 ```
@@ -12,8 +8,6 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-
-Access via http://localhost:8080/
 ```
 
 ### Compiles and minifies for production
