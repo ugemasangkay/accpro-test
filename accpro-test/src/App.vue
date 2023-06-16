@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NumberPickerGame/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NumberPickerGame from './components/NumberPickerGame.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NumberPickerGame
   }
 }
 </script>
@@ -22,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  max-width: 100px;
 }
 </style>
